@@ -12,7 +12,7 @@
       "name": "keys",
       "displayName": "Comma separated list of keys to search for",
       "type": "string"
-    },
+    }
   ],
   "result": {
     "type": "number"
