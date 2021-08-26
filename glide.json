@@ -1,0 +1,20 @@
+{
+  "name": "Count the number of keys in a list",
+  "description": "",
+  "author": "Darren Murphy <darren@victoriajd.com>",
+  "params": [
+    {
+      "name": "list",
+      "displayName": "Comma separated list to search",
+      "type": "string"
+    },
+    {
+      "name": "keys",
+      "displayName": "Comma separated list of keys to search for",
+      "type": "string"
+    },
+  ],
+  "result": {
+    "type": "number"
+  }
+}
