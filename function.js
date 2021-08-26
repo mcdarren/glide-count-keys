@@ -1,5 +1,5 @@
 
-window.function = function (data, sort_keys, delimiter) {
+window.function = function (list, keys) {
   if (list.value === undefined) return undefined;
   if (keys.value === undefined) return undefined;
   
