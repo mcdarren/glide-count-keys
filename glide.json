@@ -12,6 +12,11 @@
       "name": "keys",
       "displayName": "Comma separated list of keys to search for",
       "type": "string"
+    },
+    {
+      "name": "items",
+      "displayName": "Number of items in the list to consider (from the start)",
+      "type": "number"
     }
   ],
   "result": {
