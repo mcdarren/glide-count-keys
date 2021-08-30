@@ -2,9 +2,8 @@
 window.function = function (list, keys, items) {
   if (list.value === undefined) return undefined;
   if (keys.value === undefined) return undefined;
-  //if (items.value === undefined) return undefined;
 
-  var num_items; = items.value;
+  var num_items;
   var str_arr = list.value.split(',');
   if (items.value === undefined) {
     num_items = str_arr.length;
