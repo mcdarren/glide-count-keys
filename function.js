@@ -8,7 +8,7 @@ window.function = function (list, keys, items) {
   var codes = str_arr.splice(0,items);
   var keys_arr = keys.value.split(',');
   var count = 0;
-  str_arr.forEach(function (code) {
+  codes.forEach(function (code) {
     if (keys_arr.includes(code)) {
       count++;
     }
